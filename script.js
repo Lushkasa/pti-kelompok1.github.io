@@ -65,7 +65,7 @@ $(document).ready(() => {
         $("#transType-link").removeClass("active");
         $("#bill-link").removeClass("active");
         $("#aboutUs-link").removeClass("active");
-        $("body").css("background", "url('./images/HomePage.jpg')no-repeat");
+        $("body").css("background", "url('./Images/HomePage.jpg')no-repeat");
         $("body").css("min-height", "100vh");
         displayTransactions(transactions, balance);
       });
@@ -89,7 +89,7 @@ $(document).ready(() => {
         $("#bill-link").removeClass("active");
         $("#aboutUs-link").removeClass("active");
 
-        $("body").css("background", "url('./images/HomePage.jpg')no-repeat");
+        $("body").css("background", "url('./Images/HomePage.jpg')no-repeat");
         $("body").css("min-height", "100vh");
 
         $("#transType").on("focus", () => {
@@ -141,7 +141,7 @@ $(document).ready(() => {
         $("#bill-link").removeClass("active");
         $("#aboutUs-link").removeClass("active");
 
-        $("body").css("background", "url('./images/HomePage.jpg')no-repeat");
+        $("body").css("background", "url('./Images/HomePage.jpg')no-repeat");
         $("body").css("min-height", "100vh");
 
         $("#outcome-form #transType").on("focus", () => {
@@ -193,7 +193,7 @@ $(document).ready(() => {
         $("#bill-link").removeClass("active");
         $("#transType-link").addClass("active");
 
-        $("body").css("background", "url('./images/HomePage.jpg')no-repeat");
+        $("body").css("background", "url('./Images/HomePage.jpg')no-repeat");
         $("body").css("min-height", "100vh");
       });
 
@@ -216,7 +216,7 @@ $(document).ready(() => {
 
         $("body").css(
           "background",
-          "url('./images/bgBaru.jpg')no-repeat  fixed"
+          "url('./Images/bgBaru.jpg')no-repeat  fixed"
         );
         $("body").css("min-height", "100vh");
         $("body").css("background-size", "cover");
